@@ -1,0 +1,16 @@
+{
+  "name": "think-rugs-licensed-brands-retail",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Think Rugs Licensed Brands, retail edition: same brochures as the trade site with wholesale (trade) prices removed, recommended retail prices only.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "npx serve@latest out"
+  },
+  "dependencies": {
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
