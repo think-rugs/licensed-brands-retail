@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A single Next.js site (App Router, Next 15, React 19) that presents Think Rugs'
+A single Next.js site (App Router, Next 16, React 19) that presents Think Rugs'
 licensed-brand rug collections: a landing page at `/` plus one brochure route per
 brand. It replaces an older suite of standalone single-file HTML brochures. The
 build is a **full static export** (`output: 'export'` in `next.config.mjs`), so
@@ -14,7 +14,7 @@ casually.
 
 ## Commands
 
-Node is managed by **fnm**, pinned to the version in `.nvmrc` (24.16.0). If `node`/`npm`
+Node is managed by **fnm**, pinned to the version in `.nvmrc` (26.12.1). If `node`/`npm`
 are not on PATH, activate it first:
 
 ```bash
